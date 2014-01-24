@@ -40,12 +40,13 @@ $(function(){
 	<?php do_action( 'before' ); ?>
 	<header id="masthead-interno" class="site-header" role="banner">
    
+        
+        <div id="direita-interno">
+        
 		<nav role="navigation" class="site-navigation main-navigation-interno">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- .site-navigation .main-navigation-interno -->
         
-        <div id="direita-interno">
-               
         <?php
 		//Pega o CPT
 		$post_type_obj = get_post_type_object('projetos');

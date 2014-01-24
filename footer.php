@@ -14,23 +14,12 @@
 
 </div><!-- #page .hfeed .site -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<?php do_action( 'celestial_theme_credits' ); ?>
-		        
-        <?php
-		$textorodape = get_option ('mo_textorodape');
 		
-		$facebook = get_option ('mo_facebook');
-        $twitter = get_option ('mo_twitter');
-		$linkedin = get_option ('mo_linkedin');		
-		?>
         
         <div id="rodape-celestial">
-        	<p class="texto-rodape"><?php echo $textorodape; ?></p>
-            <div id="redes-sociais">
-            	<div id="facebook"><a class="a-facebook" href="<?php echo $facebook; ?>" target="_blank"></a></div>
-                <div id="twitter"><a class="a-twitter" href="<?php echo $twitter; ?>" target="_blank"></a></div>
-                <div id="linkedin"><a class="a-linkedin" href="<?php echo $linkedin; ?>" target="_blank"></a></div>
-            
+        	<p class="texto-rodape">description | year</p>
+            <div id="wordpress">
+            	Orgulhosamente criado com WordPress
             </div><!-- #redes-sociais -->
         </div>
 	</footer><!-- #colophon .site-footer -->

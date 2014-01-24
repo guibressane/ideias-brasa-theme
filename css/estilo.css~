@@ -456,6 +456,8 @@ a.veja:hover {
 
 
 
+
+
 /* =Menu Interno
 
 ----------------------------------------------- */
@@ -470,7 +472,7 @@ a.veja:hover {
 
 	float: right;
 
-	width: 100%;
+	width: 470px;
 
 	margin: 20px 0 0 -8px;
 

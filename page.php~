@@ -11,7 +11,7 @@
  * @since celestial-theme 1.0
  */
 
-get_header(); ?>
+get_header('projetos'); ?>
 
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content content-interno" role="main">

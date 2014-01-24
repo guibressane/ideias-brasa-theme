@@ -127,6 +127,12 @@ add_action( 'wp_enqueue_scripts', 'celestial_theme_scripts' );
  */
 //require( get_template_directory() . '/inc/custom-header.php' );
 
+
+/**
+* Admin Options
+*/
+require( get_template_directory() . '/options/admin_options.php' );
+
 /**
 * Adiciona um tamanho de imagem
 *

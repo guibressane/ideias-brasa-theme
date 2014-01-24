@@ -7,7 +7,7 @@
  * @since celestial-theme 1.0
  */
 
-get_header(); ?>
+get_header('projetos'); ?>
 
 	<div id="primary" class="content-area">
 			<div id="content" class="site-content content-projetos" role="main">
@@ -22,7 +22,7 @@ get_header(); ?>
 
 			/* $args_loop_cpt_projetos são os argumentos para o Loop */
 			$args_loop_cpt_projetos = array(
-				'post_type' => 'projetos',
+				'post_type' => 'ideias',
 				'orderby' => 'date',
 				'order' => 'DESC',
 				/*'posts_per_page' => '5',*/

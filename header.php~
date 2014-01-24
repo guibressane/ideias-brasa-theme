@@ -27,16 +27,11 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead-interno" class="site-header" role="banner">
-    
-    	<div id="logo-interno">
-        	<a class="a-logo-interno" href="<?php bloginfo( 'home' ); ?>"></a>
-        </div><!-- #logo-interno -->
-        
-        <div id="direita-interno">
-        
-		<nav role="navigation" class="site-navigation main-navigation-interno">
+	    <nav role="navigation" class="site-navigation main-navigation-interno">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- .site-navigation .main-navigation-interno -->
+            
+        <div id="direita-interno">
         
         <h1 class="entry-title capriola"><?php the_title(); ?></h1>
         </div><!-- #direita-interno -->

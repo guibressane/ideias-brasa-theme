@@ -48,7 +48,7 @@ $(function(){
                
         <?php
 		//Pega o CPT
-		$post_type_obj = get_post_type_object('projetos');
+		$post_type_obj = get_post_type_object('ideias');
 		//Pega o Título do CPT
 		$title_projetos = apply_filters('post_type_archive_title', $post_type_obj->labels->name );
 		?>

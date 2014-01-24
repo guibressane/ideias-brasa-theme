@@ -22,7 +22,7 @@ get_header('projetos'); ?>
 
 			/* $args_loop_cpt_projetos são os argumentos para o Loop */
 			$args_loop_cpt_projetos = array(
-				'post_type' => 'projetos',
+				'post_type' => 'ideias',
 				'orderby' => 'date',
 				'order' => 'DESC',
 				/*'posts_per_page' => '5',*/

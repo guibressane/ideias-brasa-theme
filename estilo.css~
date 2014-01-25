@@ -355,9 +355,8 @@ a.veja:hover {
 
 #masthead-interno {
 	margin-top: 10px;
-    min-height: 290px;
+    min-height: 200px;
     overflow: hidden;
-    width: 960px;
 }
 
 /* =Menu

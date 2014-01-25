@@ -18,7 +18,7 @@
         
         <div id="rodape-celestial">
         	<p class="texto-rodape">description | year</p>
-            <div id="wordpress">
+            <div class="wordpress">
             	Orgulhosamente criado com WordPress
             </div><!-- #redes-sociais -->
         </div>

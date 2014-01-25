@@ -12,7 +12,7 @@
  * @since celestial-theme 1.0
  */
 if ( ! isset( $content_width ) )
-	$content_width = 640; /* pixels */
+	$content_width = 960; /* pixels */
 
 if ( ! function_exists( 'celestial_theme_setup' ) ) :
 /**
@@ -90,7 +90,7 @@ function celestial_theme_scripts() {
 	/**
 	* Adiciona o CSS extra
 	*/
-	wp_enqueue_style( 'estilo', get_bloginfo('stylesheet_directory') . '/css/estilo.css' );
+	wp_enqueue_style( 'estilo', get_bloginfo('stylesheet_directory') . '/estilo.css' );
 	wp_enqueue_style( 'paginacao', get_bloginfo('stylesheet_directory') . '/css/pagenavi.css' );
 
 	wp_enqueue_script( 'small-menu', get_template_directory_uri() . '/js/small-menu.js', array( 'jquery' ), '20120206', true );
@@ -110,10 +110,15 @@ add_action( 'wp_enqueue_scripts', 'celestial_theme_scripts' );
  */
 require get_template_directory() . '/inc/custom-header.php';
 
+/* Redefine the header image width and height ********************************************/
+define( 'HEADER_IMAGE_WIDTH', apply_filters( 'twentytwelve_header_image_width', 999999 ) );
+define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentytwelve_header_image_height', 700 ) );
+
+
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+//require get_template_directory() . '/inc/template-tags.php';
 
 /**
  * Custom functions that act independently of the theme templates.

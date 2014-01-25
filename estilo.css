@@ -5,11 +5,11 @@ E o que for criado deve permanecer apenas nesse arquivo.
 
 /* Geral */
 .home {
-	background: url(../images/bg-home.jpg) top center no-repeat fixed #619ec7;
+	background: url( images/bg-home.jpg) top center no-repeat fixed #619ec7;
 }
 
 .body-interno {
-	background: url(../images/bg-interno.jpg) top center no-repeat fixed #619ec7;
+	background: url( images/bg-interno.jpg) top center no-repeat fixed #619ec7;
 }
 
 #main {
@@ -17,7 +17,7 @@ E o que for criado deve permanecer apenas nesse arquivo.
 }
 
 h1 {
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
 h2, h3 {
@@ -39,9 +39,6 @@ h2.entry-title {
 	overflow: hidden;
 }
 
-.capriola {
-	font-family: 'Capriola', sans-serif;
-}
 
 /* Links */
 a {
@@ -72,8 +69,42 @@ blockquote {
 
 /* -------------------- Header Home -------------------- */
 
+
+.image-header-bg {
+	margin:0 auto;
+	width: auto;
+	max-height: 700px;
+	overflow: hidden;
+}
+
+.image-header-bg img{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.title-description {
+
+    align-self: center;
+    margin: 20% auto 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+	color: #fff;
+
+}
+
+.site-title a {
+	color: #FFFFFF;
+    font-size: 3em;
+    text-decoration: none;
+
+}
+
 #page {
-	width:960px;
+	max-width:960px;
+	width: 100%;
 	margin:0 auto;
 }
 
@@ -82,7 +113,7 @@ blockquote {
 	height: 374px;
 	margin: 30px 0 30px 0;
 	float: left;
-	background:url(../images/logo-home.png) no-repeat top center
+	background:url( images/logo-home.png) no-repeat top center
 }
 
 .a-logo-home {
@@ -132,7 +163,7 @@ blockquote {
 .widget-title-video {
     background-color: #085B7E;
     color: #D6E5F0;
-    font-family: 'Capriola',sans-serif;
+    font-family: 'Source Sans Pro',sans-serif;
     font-weight: lighter;
     margin: 0;
     min-height: 43px;
@@ -144,7 +175,7 @@ blockquote {
 h3.titulo-header-box a, h3.titulo-header-box {
 	color: #d6e5f0;
 	text-decoration: none;
-	font-family: 'Capriola', sans-serif;
+	font-family: 'Source Sans Pro, sans-serif;
 	font-weight: lighter;
 }
 
@@ -155,7 +186,7 @@ h3.titulo-header-box a:hover {
 
 h3.titulo-header-box {
     margin: 16px 0 0 20px;
-	font-family: 'Capriola', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .slickr-flickr-gallery {
@@ -206,7 +237,7 @@ h3.titulo-header-box {
 }
 
 .box p {
-	font-family: 'Capriola', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 10px 20px 0 20px;
 	line-height: 18px;
 	font-size: 13px;
@@ -235,7 +266,7 @@ h3.titulo-header-box {
 	right: 10px;
 	bottom: 5px;
 	font-style: italic;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Arial, Times, serif;
 }
 
 a.veja {
@@ -282,7 +313,7 @@ a.veja:hover {
 	height: 290px;
 	margin: 30px 0 30px 0;
 	float: left;
-	background:url(../images/logo-interno.png) no-repeat top center
+	background:url( images/logo-interno.png) no-repeat top center
 }
 
 .a-logo-interno {
@@ -294,8 +325,8 @@ a.veja:hover {
 #direita-interno {
     color: #FFFFFF;
     float: right;
-    min-height: 180px;
-    margin: 70px 0 0 20px;
+    min-height: 100px;
+    margin: 20px 0 0 20px;
     width: 570px;
 }
 
@@ -304,7 +335,7 @@ a.veja:hover {
     font-size: 50px;
     font-style: italic;
     font-weight: lighter;
-    margin: 115px 0 10px 0;
+    margin: 15px 0 10px 0;
     padding: 0 20px;
     width: auto;
 
@@ -324,9 +355,8 @@ a.veja:hover {
 
 #masthead-interno {
 	margin-top: 10px;
-    min-height: 290px;
+    min-height: 200px;
     overflow: hidden;
-    width: 960px;
 }
 
 /* =Menu
@@ -338,7 +368,7 @@ a.veja:hover {
 	float: left;
 	width: 470px;
 	margin: 20px 0 0 -8px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-weight: lighter;
 	font-style: italic;
 }
@@ -474,7 +504,7 @@ a.veja:hover {
 
 	margin: 20px 0 0 -8px;
 
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 
 	font-weight: lighter;
 
@@ -623,7 +653,7 @@ footer {
 
 #rodape-celestial p {
 	color: #FFF;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 
 	font-style: italic;
 
@@ -650,7 +680,7 @@ footer {
 #facebook {
 	width: 45px;
 	height: 45px;
-	background: url(../images/redes-sociais-celestial.png) no-repeat 0px 0;
+	background: url( images/redes-sociais-celestial.png) no-repeat 0px 0;
 	float: left;
 	margin: 0 5px 0 0;
 
@@ -670,7 +700,7 @@ footer {
 #twitter {
 	width: 45px;
 	height: 45px;
-	background: url(../images/redes-sociais-celestial.png) no-repeat -50px 0;
+	background: url( images/redes-sociais-celestial.png) no-repeat -50px 0;
 	float: left;
 	margin: 0 5px 0 0;	
 }
@@ -688,7 +718,7 @@ footer {
 #linkedin {
 	width: 45px;
 	height: 45px;
-	background: url(../images/redes-sociais-celestial.png) no-repeat -105px 0;
+	background: url( images/redes-sociais-celestial.png) no-repeat -105px 0;
 	float: left;
 	margin: 0 5px 0 0;
 }
@@ -712,7 +742,7 @@ footer {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	background: url(../images/sombra-projetos.jpg) 360px -1px no-repeat #d6e5f0; /* Azul Claro */
+	background: url( images/sombra-projetos.jpg) 360px -1px no-repeat #d6e5f0; /* Azul Claro */
 	font-size: 14px;
 	margin: 0 auto 45px auto;
 	border: 1px solid #085b7e; /* Azul Escuro */
@@ -747,7 +777,7 @@ footer {
 	border-radius: 10px;
     margin: 170px 0 0 750px;
 	color: #eaf2f4;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-style: italic;
 }
 
@@ -817,7 +847,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 
 /* -------------------- Blog -------------------- */
 .body-blog {
-	background: url(../images/bg-blog.jpg) top center no-repeat #c3d9e7;
+	background: url( images/bg-blog.jpg) top center no-repeat #c3d9e7;
 }
 
 #blog {
@@ -830,7 +860,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 	height: 106px;
 	margin: 100px 0 30px 0;
 	float: left;
-	background:url(../images/logo-blog.png) no-repeat top center
+	background:url( images/logo-blog.png) no-repeat top center
 }
 
 .a-logo-blog {
@@ -840,7 +870,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 }
 
 #blog-header {
-	background: url(../images/ilustra-blog.png) no-repeat 206px -15px;
+	background: url( images/ilustra-blog.png) no-repeat 206px -15px;
 	margin-top: 0;
     min-height: 360px;
     overflow: hidden;
@@ -876,7 +906,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 	padding: 5px 10px 5px 10px;
 	text-align: center;
 	color: #085b7e;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-style: italic;
 	text-decoration: none;
 	float: right;
@@ -886,7 +916,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 	padding: 6px 10px 0 10px;
 	text-align: center;
 	color: #085b7e;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-style: italic;
 	float: right;
 	margin: 0;
@@ -986,7 +1016,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 	border-radius: 10px;
     margin: -20px 0 0 420px;
 	color: #eaf2f4;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-style: italic;
 }
 
@@ -1016,7 +1046,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 	border-radius: 10px;
     margin: -20px 0 0 420px;
 	color: #eaf2f4;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-style: italic;
 }
 
@@ -1105,7 +1135,7 @@ div.orbit-default.default-thumbs div.satl-wrapper {
 }
 
 #secondary .widget-title {
-	font-family: 'Capriola', sans-serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	padding: 0;
 	margin: 10px 0;
 	clear: both;
